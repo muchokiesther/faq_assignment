@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   align-content: center;
+  
+}
+
+.mainn{
+background-color: white;
+border-radius: 13.5px;
+padding-right: 10px;
+margin-top: 80px;
+height: fit-content;
+width:min-content;
+gap:0;
+margin-bottom: 80px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.left{
+    overflow: hidden;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    
+}
+
+.right{
+    padding-top: 20px;
+height:100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 0px;
+margin-right: 80px;
+padding-bottom: 70px;
+}
+
+.faq_ques{
+   border-bottom: 1px solid #F2F2F2 ;
+   padding-bottom: 17.5px;
+   width:370px;
+}
+
+.box{
+    position:absolute;
+    top:45.5%;
+    left: -0.7em;
+    margin-left: 129.5px;
+    
+}
+
+.woman_img{
+position:relative;
+top:40px;
+left: -80px;
+overflow: hidden;
+}
+
+.left .woman_img{
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: cover;
+    margin-left: 0px;
+    background-repeat:  no-repeat;
+    background-position: center;
+    padding-bottom: 80px; 
+}
+
+.dropdown{
+    margin-left: 50px;
+    align-items: center;
+}
+
+.questions h4{
+    line-height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
