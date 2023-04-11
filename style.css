@@ -23,20 +23,25 @@ height: fit-content;
 width:min-content;
 gap:0;
 margin-bottom: 80px;
+
 }
 
 .container{
     display: flex;
     gap: 10px;
     flex-direction: row;
+    overflow: visible;
+  
 }
 
 .left{
-    overflow: hidden;
+  
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 0px;
-    
+    position: relative;
+
+  
 }
 
 .right{
@@ -58,18 +63,26 @@ padding-bottom: 70px;
 
 .box{
     position:absolute;
-    top:45.5%;
-    left: -0.7em;
-    margin-left: 145.5px;
-    
+    top:40.5%;
+    left:-19%;
+  
+ 
 }
 
-.woman_img{
-position:relative;
-top:40px;
-left: -80px;
-overflow: hidden;
+.trial{  /*This is for the image*/
+    overflow: hidden;
 }
+
+
+
+.woman_img{
+    
+    position:relative;
+    top:45px;
+    left: -80px;
+   
+    
+    }
 
 .left .woman_img{
     background-image: url(images/bg-pattern-desktop.svg);
@@ -78,6 +91,8 @@ overflow: hidden;
     background-repeat:  no-repeat;
     background-position: center;
     padding-bottom: 80px; 
+   
+    
 }
 
 .dropdown{
